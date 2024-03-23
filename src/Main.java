@@ -9,6 +9,7 @@ import java.net.http.HttpClient;
 
 public class Main {
     public static void main(String[] args) {
+        int a=0;
         String url = "https://example.com/check_hash?hash="; // Đường link truy cập /check_hash
 
         String hash = "your_hash_value"; // Giá trị của hash bạn muốn truyền
